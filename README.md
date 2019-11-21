@@ -87,9 +87,9 @@ git push
 ### 9. Upgrade Your App
 
 ```
-kustomize edit set image gitopsworkshop/my-app:v2
+~/go/bin/kustomize edit set image gitopsworkshop/my-app:v2
 git diff
-kustomize build
+~/go/bin/kustomize build
 ```
 
 ```
